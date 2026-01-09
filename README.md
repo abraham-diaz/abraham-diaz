@@ -31,7 +31,7 @@ A command-line tool published on npm, designed to streamline the creation of str
 
 **Links:**
 - Source code: https://github.com/abraham-diaz/devstarter-cli  
-- npm package: https://www.npmjs.com/package/devstarter-cli
+- npm package: https://www.npmjs.com/package/devstarter-tool
 
 This project reflects a strong focus on automation, tooling, and real-world developer workflows.
 
