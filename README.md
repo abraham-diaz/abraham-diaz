@@ -64,19 +64,6 @@ This project reflects a strong focus on automation, tooling, and real-world deve
   <img src="https://skillicons.dev/icons?i=git,github,vscode" />
 </p>
 
----
-
-## GitHub Statistics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=abraham-diaz&show_icons=true&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abraham-diaz&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
----
 
 ## Professional Objective
 
