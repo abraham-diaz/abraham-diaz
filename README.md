@@ -1,7 +1,6 @@
 <div align="center">
-  <img src="./assets/header.gif" width="100%" alt="Abraham Díaz header"/>
+  <img src="./assets/header.gif" width="100%" height="200" alt="Abraham Díaz header"/>
 </div>
-
 <br/>
 
 ## About
