@@ -1,34 +1,6 @@
 <svg width="860" height="200" viewBox="0 0 860 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style>
-      .wave1 { animation: drift1 8s ease-in-out infinite; }
-      .wave2 { animation: drift2 11s ease-in-out infinite; }
-      .wave3 { animation: drift3 14s ease-in-out infinite; }
-      .wave4 { animation: drift4 9s ease-in-out infinite; }
-      @keyframes drift1 {
-        0%, 100% { transform: translateX(0px); }
-        50% { transform: translateX(-40px); }
-      }
-      @keyframes drift2 {
-        0%, 100% { transform: translateX(0px); }
-        50% { transform: translateX(30px); }
-      }
-      @keyframes drift3 {
-        0%, 100% { transform: translateX(0px); }
-        50% { transform: translateX(-25px); }
-      }
-      @keyframes drift4 {
-        0%, 100% { transform: translateX(0px); }
-        50% { transform: translateX(20px); }
-      }
-    </style>
-  </defs>
-
-  <!-- Background -->
-  <rect width="860" height="200" fill="#000000"/>
-  <rect width="860" height="200" fill="url(#bg-grad)"/>
-  <defs>
-    <linearGradient id="bg-grad" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#000000"/>
       <stop offset="50%" stop-color="#020810"/>
       <stop offset="100%" stop-color="#000000"/>
@@ -51,31 +23,36 @@
     </linearGradient>
   </defs>
 
+  <rect width="860" height="200" fill="url(#bg)"/>
+
   <!-- Wave 4 - deepest -->
-  <g class="wave4">
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; -40,0; 0,0" dur="9s" repeatCount="indefinite"/>
     <path d="M-100,90 Q50,76 200,90 Q350,104 500,90 Q650,76 800,90 Q950,104 1060,90 L1060,200 L-100,200 Z"
           fill="url(#wg4)" stroke="#334d80" stroke-width="0.5" stroke-opacity="0.12"/>
   </g>
 
   <!-- Wave 3 -->
-  <g class="wave3">
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 30,0; 0,0" dur="14s" repeatCount="indefinite"/>
     <path d="M-100,108 Q80,92 260,108 Q440,124 620,108 Q800,92 980,108 Q1060,116 1060,108 L1060,200 L-100,200 Z"
           fill="url(#wg3)" stroke="#3a5a9a" stroke-width="0.6" stroke-opacity="0.16"/>
   </g>
 
   <!-- Wave 2 -->
-  <g class="wave2">
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; -25,0; 0,0" dur="11s" repeatCount="indefinite"/>
     <path d="M-100,124 Q100,106 300,124 Q500,142 700,124 Q900,106 1060,124 L1060,200 L-100,200 Z"
           fill="url(#wg2)" stroke="#4070b8" stroke-width="0.7" stroke-opacity="0.2"/>
   </g>
 
   <!-- Wave 1 - surface -->
-  <g class="wave1">
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 20,0; 0,0" dur="8s" repeatCount="indefinite"/>
     <path d="M-100,140 Q115,120 330,140 Q545,160 760,140 Q975,120 1060,140 L1060,200 L-100,200 Z"
           fill="url(#wg1)" stroke="#507ac8" stroke-width="0.8" stroke-opacity="0.28"/>
   </g>
 
-  <!-- Text -->
   <text x="430" y="78" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="13" font-weight="400"
         fill="#ffffff" fill-opacity="0.28" text-anchor="middle" letter-spacing="1">Hello, I'm</text>
 
