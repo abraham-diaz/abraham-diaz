@@ -1,5 +1,5 @@
 <div align="center">
- <img src="https://raw.githubusercontent.com/abraham-diaz/abraham-diaz/main/assets/header.gif" width="100%" height="200" alt="Abraham Díaz header"/>
+ <img src="https://github.com/abraham-diaz/abraham-diaz/blob/main/assets/header.gif?raw=true" width="100%" height="200" alt="Abraham Díaz header"/>
 </div>
 <br/>
 
